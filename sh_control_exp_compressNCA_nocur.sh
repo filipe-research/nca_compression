@@ -14,4 +14,4 @@ cd ../..
 #echo  $conf_path
 
 #python control_exp_compressNCA.py --name $output_path --conf $conf_path
-papermill compressNCA_curr.ipynb  $output_path -f $conf_path --log-output  --progress-bar
+papermill compressNCA_nocurr.ipynb  $output_path -f $conf_path  --progress-bar   --log-output 
