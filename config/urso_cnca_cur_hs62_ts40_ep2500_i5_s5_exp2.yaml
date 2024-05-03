@@ -1,0 +1,25 @@
+---
+#Lista de parametros para teste
+exp_name: 'urso_cnca_cur_hs62_ts40_ep2500_i5_s5_exp2'
+path_input_img: 'data/urso.jpg'
+
+
+# Number of CA state channels
+CHANNEL_N: 16
+#Number of pixels used to pad the target image border
+TARGET_PADDING: 0
+TARGET_SIZE: 40
+hidden_size: 62
+initial_target_size: 5
+target_increase: 5
+
+lr: 0.002
+lr_gamma: 0.9999
+n_epoch: 2500
+
+BATCH_SIZE: 8
+POOL_SIZE: 1024
+CELL_FIRE_RATE: 0.5 
+
+EXPERIMENT_TYPE: "Growing"
+output_folder: 'outputs'
