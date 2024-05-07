@@ -1,0 +1,27 @@
+---
+#Lista de parametros para teste
+exp_name: 'explore_hs18_nc16_ts40_ep1k_st208_224.yaml'
+path_input_img: 'data/urso.jpg'
+
+
+# Number of CA state channels
+CHANNEL_N: 16
+#Number of pixels used to pad the target image border
+TARGET_PADDING: 0
+TARGET_SIZE: 40
+hidden_size: 18
+
+step_min: 208
+step_max: 224
+
+lr: 0.002
+lr_gamma: 0.9999
+n_epoch: 1000
+
+
+BATCH_SIZE: 8
+POOL_SIZE: 1024
+CELL_FIRE_RATE: 0.5 
+
+EXPERIMENT_TYPE: "Growing"
+output_folder: 'outputs'

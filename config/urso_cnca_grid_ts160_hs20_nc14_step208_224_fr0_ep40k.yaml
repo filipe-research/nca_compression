@@ -1,0 +1,28 @@
+---
+#Lista de parametros para teste
+exp_name: 'urso_cnca_grid_ts160_hs20_nc14_step208_224_fr0_ep40k'
+path_input_img: 'data/urso.jpg'
+
+
+# Number of CA state channels
+CHANNEL_N: 14
+#Number of pixels used to pad the target image border
+TARGET_PADDING: 0
+TARGET_SIZE: 160
+hidden_size: 20
+grid_size: 40
+
+step_min: 208
+step_max: 224
+
+lr: 0.002
+lr_gamma: 0.9999
+n_epoch: 40000
+
+
+BATCH_SIZE: 8
+POOL_SIZE: 1024
+CELL_FIRE_RATE: 0.0 
+
+EXPERIMENT_TYPE: "Growing"
+output_folder: 'outputs'
