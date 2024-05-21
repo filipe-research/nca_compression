@@ -1,0 +1,2 @@
+sh sh_control_exp_compressNCA_nocur.sh ablation_hs64 ablation_hs64.yaml;
+sh sh_control_exp_compressNCA_nocur.sh ablation_hs128 ablation_hs128.yaml

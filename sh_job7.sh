@@ -1,0 +1,2 @@
+sh sh_control_exp_compressNCA_nocur.sh ablation_nc24 ablation_nc24.yaml;
+sh sh_control_exp_compressNCA_nocur.sh ablation_nc28 ablation_nc28.yaml

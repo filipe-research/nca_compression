@@ -1,0 +1,27 @@
+---
+#Lista de parametros para teste
+exp_name: 'ablation_gridnca_ts120_hs128'
+path_input_img: 'data/urso.jpg'
+
+
+# Number of CA state channels
+CHANNEL_N: 16
+#Number of pixels used to pad the target image border
+TARGET_PADDING: 0
+TARGET_SIZE: 120
+hidden_size: 128
+
+step_min: 64
+step_max: 96
+
+lr: 0.002
+lr_gamma: 0.9999
+n_epoch: 40000
+
+
+BATCH_SIZE: 8
+POOL_SIZE: 1024
+CELL_FIRE_RATE: 0
+
+EXPERIMENT_TYPE: "Growing"
+output_folder: 'outputs'
